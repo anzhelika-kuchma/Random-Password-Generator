@@ -1,0 +1,73 @@
+body {
+  color: white;
+  background-color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.password-gererator-app {
+  background: #1f2937;
+  width: 550px;
+  padding: 115px 52px;
+  box-sizing: border-box;
+}
+
+.hero {
+  border-bottom: 1px solid #2f3e53;
+  margin-bottom: 35px;
+}
+
+.title {
+  font-family: "Karla", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 10px 0 51px;
+}
+
+.green-text {
+  color: #4adf86;
+}
+
+.btn {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: "Inter", sans-serif;
+  background: #10b981;
+  border-radius: 6px;
+  border: none;
+  text-shadow: 0 0 1px black;
+  padding: 9px 17px 9px 15px;
+  margin-bottom: 35px;
+}
+
+.passwords-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.generated-passw {
+  height: 39px;
+  width: 211px;
+  color: #55f991;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  background: #273549;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 4px 9px 3px 10px;
+}
